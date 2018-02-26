@@ -1,11 +1,5 @@
 #! /usr/bin/python
 
-/* This Python script allows you to find any file or directory within your Linux Server.
-  Put the script in your path and change the permissions. Then you simply have to call 
-  the script and with one argument which is what you are looking for, example:
-  find.py index.html */
-
-
 import os
 import sys
 
