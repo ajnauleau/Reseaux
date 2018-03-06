@@ -1,16 +1,16 @@
 import threading
-import SocketServer
+import socketserver
 
 PARAMS = ('127.0.0.1', 8808)
 
-class ExampleUDPHandler(SocketServer.DatagramRequestHandler):
+class ExampleUDPHandler(socketserver.DatagramRequestHandler):
     def handle(self):
         cur_thread = threading.current_thread()
         data = self.rfile.readline().strip()
         print('>>> Recv: %s', data, ', current thread:', cur_thread)
         self.wfile.write(b"Hello " + data.strip() + b". \n")
 
-class ThreadedUDPServer(SocketServer.ThreadingMixIn, SocketServer.UDPServer):
+class ThreadedUDPServer(socketserver.ThreadingMixIn, socketserver.UDPServer):
     pass
 
 if __name__ == "__main__":
