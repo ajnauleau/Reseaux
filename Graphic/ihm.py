@@ -7,7 +7,7 @@ class Handler:
     def __init__(self, builder):
         self.builder = builder
 
-    def on_window_principle_delete_event(self, widget, event):
+    def on_principle_window_delete_event(self, widget, event):
         print("Bye.")
         Gtk.main_quit(widget, event)
 
@@ -17,12 +17,12 @@ class Handler:
         result = self.builder.get_object('result')
         value = entry.get_text()
         if value:
-            result.set_text(get_result(value))
+            result.set_text(value)
         else:
             result.set_text('')
 
 builder = Gtk.Builder()
-builder.add_from_file("Glade/hello.glade")
+builder.add_from_file("hello.glade")
 builder.connect_signals(Handler(builder))
 
 if __name__ == "__main__":
