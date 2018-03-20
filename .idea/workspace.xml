@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6e01e89-146f-4c25-a776-610b353f97f2" name="Default" comment="Moved hello.glade inside Graphic folder (wasn't accessing in script). Functional, except 'on_principle_window_delete_event' not fully working, everything gets greyed out, but doesnt close, as intended.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/hello.glade" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/network_aspect.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/server.py" />
+    <list default="true" id="c6e01e89-146f-4c25-a776-610b353f97f2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Glade/__init__.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Glade/#hello.glade#" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Glade/hello.glade" afterPath="$PROJECT_DIR$/Glade/hello.glade" />
-      <change beforePath="$PROJECT_DIR$/Graphic/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Graphic/connect.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Graphic/connect_result.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Graphic/client.py" afterPath="$PROJECT_DIR$/Graphic/client.py" />
+      <change beforePath="$PROJECT_DIR$/Graphic/hello.glade" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Graphic/ihm.py" afterPath="$PROJECT_DIR$/Graphic/ihm.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +21,8 @@
       <file leaf-file-name="ihm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphic/ihm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphic/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -55,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graphic/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="165">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -113,10 +108,12 @@
         <option value="$PROJECT_DIR$/Server/server.py" />
         <option value="$PROJECT_DIR$/Graphic/connect.py" />
         <option value="$PROJECT_DIR$/Graphic/connect_result.py" />
-        <option value="$PROJECT_DIR$/Graphic/ihm.py" />
-        <option value="$PROJECT_DIR$/Graphic/server.py" />
         <option value="$PROJECT_DIR$/Graphic/network_aspect.py" />
         <option value="$PROJECT_DIR$/Graphic/client.py" />
+        <option value="$PROJECT_DIR$/Init/inits.py" />
+        <option value="$PROJECT_DIR$/Glade/__init__.py" />
+        <option value="$PROJECT_DIR$/Graphic/ihm.py" />
+        <option value="$PROJECT_DIR$/Graphic/server.py" />
       </list>
     </option>
   </component>
@@ -194,11 +191,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Glade" />
       <recent name="$PROJECT_DIR$/Graphic" />
       <recent name="$PROJECT_DIR$/Server" />
       <recent name="$PROJECT_DIR$/Scripts" />
       <recent name="$PROJECT_DIR$/Threads" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ihm">
+  <component name="RunManager" selected="Python.client">
     <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,7 +229,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="connect_result" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -323,7 +320,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.connect_result" />
+      <item index="0" class="java.lang.String" itemvalue="Python.client" />
       <item index="1" class="java.lang.String" itemvalue="Python.low_level_server" />
       <item index="2" class="java.lang.String" itemvalue="Python.high_level_server (1)" />
       <item index="3" class="java.lang.String" itemvalue="Python.client (1)" />
@@ -332,8 +329,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ihm" />
-        <item index="1" class="java.lang.String" itemvalue="Python.network_aspect" />
+        <item index="0" class="java.lang.String" itemvalue="Python.network_aspect" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ihm" />
         <item index="2" class="java.lang.String" itemvalue="Python.client (1)" />
         <item index="3" class="java.lang.String" itemvalue="Python.high_level_server (1)" />
         <item index="4" class="java.lang.String" itemvalue="Python.low_level_server" />
@@ -375,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520461612576</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating, and created network aspect.">
+      <created>1521570031089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521570031091</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -409,7 +413,8 @@
     <MESSAGE value="Server code done" />
     <MESSAGE value="ihm finished, added hello.glade" />
     <MESSAGE value="Moved hello.glade inside Graphic folder (wasn't accessing in script). Functional, except 'on_principle_window_delete_event' not fully working, everything gets greyed out, but doesnt close, as intended." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved hello.glade inside Graphic folder (wasn't accessing in script). Functional, except 'on_principle_window_delete_event' not fully working, everything gets greyed out, but doesnt close, as intended." />
+    <MESSAGE value="Updating, and created network aspect." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating, and created network aspect." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,24 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Graphic/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graphic/ihm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -756,26 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/hello.glade">
+    <entry file="file://$PROJECT_DIR$/Glade/hello.glade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/ihm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -790,11 +761,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphic/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Init/inits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glade/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphic/ihm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphic/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
