@@ -7,12 +7,12 @@ params = ('127.0.0.1', 8808)
 
 BUFFER_SIZE = 1024
 
-def getresult(value):
+def get_result(command, value):
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
         s.connect(params)
-        s.send("{}\n".format(value).encode())
+        s.send("{}:{}\n".format(command, value).encode())
         result = s.recv(BUFFER_SIZE)
 
         print('\tData from server : {}'.format(result))

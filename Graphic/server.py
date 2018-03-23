@@ -9,9 +9,9 @@ class ExampleTCPHandler(SocketServer.StreamRequestHandler):
             command = ""
         else:
             command, data = raw_data[0], ":".join(raw_data[1:])
-        if command == "Hello!"
+        if command == "Hello!":
             result = "Bonjour {}.\n".format(data)
-        elif command == "Bye!"
+        elif command == "Bye!":
             result = "Au revoir {}.\n".format(data)
         else:
             result = "Error"

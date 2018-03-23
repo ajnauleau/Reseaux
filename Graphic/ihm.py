@@ -14,7 +14,7 @@ class Handler:
         print("Bye.")
         Gtk.main_quit(widget, event)
 
-    def on_validation_button_clicked(self, button):
+    def on_hello_button_clicked(self, button):
 
         print("Hello World!")
         entry = self.builder.get_object('entry')
@@ -22,7 +22,19 @@ class Handler:
         value = entry.get_text()
 
         if value:
-            result.set_text(value)
+            result.set_text("hello", value)
+        else:
+            result.set_text('')
+
+    def on_bye_button_clicked(self, button):
+
+        print("Bye World!")
+        entry = self.builder.get_object('entry')
+        result = self.builder.get_object('result')
+        value = entry.get_text()
+
+        if value:
+            result.set_text("bye", value)
         else:
             result.set_text('')
 
