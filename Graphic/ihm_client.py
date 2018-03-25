@@ -22,7 +22,7 @@ class Handler:
         value = entry.get_text()
 
         if value:
-            result.set_text("hello", value)
+            result.set_text("hello " + value)
         else:
             result.set_text('')
 
@@ -34,7 +34,7 @@ class Handler:
         value = entry.get_text()
 
         if value:
-            result.set_text("bye", value)
+            result.set_text("bye " + value)
         else:
             result.set_text('')
 
