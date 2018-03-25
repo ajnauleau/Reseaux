@@ -1,4 +1,5 @@
 import socket
+import json
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
@@ -12,7 +13,7 @@ def get_result(command, value):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
         s.connect(params)
-        s.send("{}:{}\n".format(command, value).encode())
+        s.send(json.dumps({"command": command, "message": value}).encode() + b"\n")
         result = s.recv(BUFFER_SIZE)
 
         print('\tData from server : {}'.format(result))
