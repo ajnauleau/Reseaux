@@ -1,7 +1,7 @@
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
-
+from client import get_result
 
 class Handler:
 
@@ -22,7 +22,7 @@ class Handler:
         value = entry.get_text()
 
         if value:
-            result.set_text("hello " + value)
+            result.set_text(get_result("Hello!", value))
         else:
             result.set_text('')
 
@@ -34,7 +34,7 @@ class Handler:
         value = entry.get_text()
 
         if value:
-            result.set_text("bye " + value)
+            result.set_text(get_result("Bye!", value))
         else:
             result.set_text('')
 
