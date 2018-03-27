@@ -4,7 +4,6 @@ import json
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
-import contextlib
 
 params = ('127.0.0.1', 8808)
 

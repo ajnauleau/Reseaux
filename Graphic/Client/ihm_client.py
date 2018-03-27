@@ -1,7 +1,7 @@
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
-from client import get_result
+from Graphic.Client import get_result
 
 class Handler:
 
