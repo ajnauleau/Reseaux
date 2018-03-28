@@ -1,7 +1,7 @@
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
-from Graphic.Client import get_result
+from Graphic.Client.client import get_result
 
 class Handler:
 
@@ -39,7 +39,7 @@ class Handler:
             result.set_text('')
 
 builder = Gtk.Builder()
-builder.add_from_file("/Users/Antoine/Developer/Code/Python/Glade/client.glade")
+builder.add_from_file("/Users/Antoine/Developer/Code/Python/Reseaux/Glade/client.glade")
 builder.connect_signals(Handler(builder))
 
 if __name__ == "__main__":

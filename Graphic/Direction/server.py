@@ -12,7 +12,7 @@ class ExampleTCPHandler(SocketServer.StreamRequestHandler):
         command, data = raw_data[0], raw_data[1]
 
         if command == "load_file":
-            with open("/Users/Antoine/Developer/Code/Python/Glade/{}.glade".format(data), "rb") as f:
+            with open("/Users/Antoine/Developer/Code/Python/Reseaux/Glade/{}.glade".format(data), "rb") as f:
                 self.wfile.write(f.read())
 
 if __name__ == '__main__':
