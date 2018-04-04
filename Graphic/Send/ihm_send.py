@@ -32,6 +32,7 @@ builder.add_from_file("/Users/Antoine/Developer/Code/Python/Reseaux/Glade/hello.
 builder.connect_signals(Handler(builder))
 
 if __name__ == "__main__":
+
     window = builder.get_object("principle_window")
     window.show_all()
 

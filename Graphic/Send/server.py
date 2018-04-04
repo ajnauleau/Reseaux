@@ -18,7 +18,7 @@ class ExampleTCPHandler(SocketServer.StreamRequestHandler):
             with open("/Users/Antoine/Developer/Code/Python/Reseaux/Glade/{}.glade".format(data), "rb") as f:
                 self.wfile.write(f.read())
         elif command == "load_code":
-            with open("/Users/Antoine/Developer/Code/Python/Reseaux/Send/{}.py".format(data), "rb") as f:
+            with open("/Users/Antoine/Developer/Code/Python/Reseaux/Graphic/Send/{}.py".format(data), "rb") as f:
                 self.wfile.write(base64.b64encode(zlib.compress(f.read())))
 
 

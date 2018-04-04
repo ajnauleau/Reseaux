@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6e01e89-146f-4c25-a776-610b353f97f2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/Send/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/Send/client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/Send/code.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/Send/ihm_send.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/Send/server.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graphic/Send/start.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" afterPath="$PROJECT_DIR$/.idea/Reseaux.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Graphic/Hello/ihm_hello.py" afterPath="$PROJECT_DIR$/Graphic/Hello/ihm_hello.py" />
+      <change beforePath="$PROJECT_DIR$/Graphic/Send/client.py" afterPath="$PROJECT_DIR$/Graphic/Send/client.py" />
+      <change beforePath="$PROJECT_DIR$/Graphic/Send/code.py" afterPath="$PROJECT_DIR$/Graphic/Send/code.py" />
+      <change beforePath="$PROJECT_DIR$/Graphic/Send/ihm_send.py" afterPath="$PROJECT_DIR$/Graphic/Send/ihm_send.py" />
+      <change beforePath="$PROJECT_DIR$/Graphic/Send/server.py" afterPath="$PROJECT_DIR$/Graphic/Send/server.py" />
+      <change beforePath="$PROJECT_DIR$/Graphic/Send/start.py" afterPath="$PROJECT_DIR$/Graphic/Send/start.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,25 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graphic/Send/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="252">
+              <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Graphic/Send/code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +33,8 @@
       <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphic/Send/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="555">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -59,11 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ihm_send.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graphic/Send/ihm_send.py">
+      <file leaf-file-name="code.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graphic/Send/code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+            <state relative-caret-position="554">
+              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graphic/Send/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -131,11 +126,12 @@
         <option value="$PROJECT_DIR$/Graphic/Direction/start.py" />
         <option value="$PROJECT_DIR$/Graphic/Client/client.py" />
         <option value="$PROJECT_DIR$/Graphic/Client/ihm_client.py" />
-        <option value="$PROJECT_DIR$/Graphic/Send/ihm_send.py" />
         <option value="$PROJECT_DIR$/Graphic/Hello/ihm_hello.py" />
-        <option value="$PROJECT_DIR$/Graphic/Send/server.py" />
-        <option value="$PROJECT_DIR$/Graphic/Send/client.py" />
         <option value="$PROJECT_DIR$/Graphic/Send/code.py" />
+        <option value="$PROJECT_DIR$/Graphic/Send/start.py" />
+        <option value="$PROJECT_DIR$/Graphic/Send/server.py" />
+        <option value="$PROJECT_DIR$/Graphic/Send/ihm_send.py" />
+        <option value="$PROJECT_DIR$/Graphic/Send/client.py" />
       </list>
     </option>
   </component>
@@ -175,12 +171,6 @@
               <item name="Reseaux" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reseaux" type="462c0819:PsiDirectoryNode" />
               <item name="Graphic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reseaux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reseaux" type="462c0819:PsiDirectoryNode" />
-              <item name="Graphic" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reseaux" type="b2602c69:ProjectViewProjectNode" />
@@ -231,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.server (1)">
+  <component name="RunManager" selected="Python.start (1)">
     <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,19 +294,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphic/Direction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphic/Send" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphic/Direction/server.py" />
+      <module name="Reseaux" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphic/Send/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,11 +323,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
+      <module name="Reseaux" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphic/Direction/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -430,18 +420,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.client" />
       <item index="1" class="java.lang.String" itemvalue="Python.ihm_client" />
-      <item index="2" class="java.lang.String" itemvalue="Python.server (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.client (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.start" />
-      <item index="5" class="java.lang.String" itemvalue="Python.server (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.client (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.start" />
+      <item index="4" class="java.lang.String" itemvalue="Python.server (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.start (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.server (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ihm_client" />
+        <item index="0" class="java.lang.String" itemvalue="Python.start (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.server (1)" />
         <item index="2" class="java.lang.String" itemvalue="Python.start" />
-        <item index="3" class="java.lang.String" itemvalue="Python.client (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.server (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ihm_client" />
+        <item index="4" class="java.lang.String" itemvalue="Python.client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -529,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522186589684</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Created code.py file">
+      <created>1522793495714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1522793495715</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -541,7 +538,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32103825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32103825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -590,7 +587,8 @@
     <MESSAGE value="modified with json" />
     <MESSAGE value="fixed with shebang and import in ihm_client" />
     <MESSAGE value="Directories rearranged, added &quot;go&quot; file to launch xml file of client.glade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Directories rearranged, added &quot;go&quot; file to launch xml file of client.glade" />
+    <MESSAGE value="Created code.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created code.py file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,14 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Graphic/Client/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Threads/threads.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -826,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/Direction/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graphic/Client/network_aspect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -851,13 +834,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/Hello/ihm_hello.py">
+    <entry file="file://$PROJECT_DIR$/Graphic/Client/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -865,20 +850,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/Direction/server.py">
+    <entry file="file://$PROJECT_DIR$/Graphic/Hello/ihm_hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="375">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/Send/ihm_send.py">
+    <entry file="file://$PROJECT_DIR$/Graphic/Direction/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -891,28 +878,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/Send/server.py">
+    <entry file="file://$PROJECT_DIR$/Graphic/Direction/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphic/Client/client.py">
+    <entry file="file://$PROJECT_DIR$/Graphic/Send/ihm_send.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="326">
+          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphic/Send/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphic/Send/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
@@ -921,10 +914,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphic/Send/code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="554">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphic/Send/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

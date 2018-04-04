@@ -1,6 +1,6 @@
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
-from Graphic.Direction.client import set_ihm
+from Graphic.Send.client import set_code
 
-set_ihm(Gtk.Builder(), "client")
+set_code(Gtk.Builder(), "code")
