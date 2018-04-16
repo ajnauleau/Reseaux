@@ -2,7 +2,7 @@ from scapy.all import sr1, IP, TCP, conf
 
 conf.verb = 0 #quiet mode
 
-SYN = 0x02
+SYN = 0x02 #0x002
 ACK = 0x10
 SYNACK = SYN | ACK
 
