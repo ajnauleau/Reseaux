@@ -1,5 +1,7 @@
 
-from scapy.all import Packet, BitEnumField, BitField
+from scapy.all import Packet, BitEnumField, BitField, ConditionalField, ShortField, TCP,
+
+import struct
 
 class OpenVPN(Packet):
     name = 'OpenVPN'
@@ -16,4 +18,10 @@ class OpenVPN(Packet):
             9: 'P_DATA_V2',
         }),
         BitField('keyid', 0, 3),
+        ConditionalField(ShortField("Length", None),
+                         lambda pkt: isinstance(pkt.underlayer, TCP))
     ]
+    def post_build(self, pkt, pay):
+        if isinstance(self.underlayer, TCP) and self.length is None:
+            pkt = struct.pack("!H", len(pkt) - 2) + pkt[2:]
+        return pkt + pay
