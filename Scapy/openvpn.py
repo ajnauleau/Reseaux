@@ -1,5 +1,5 @@
 
-from scapy.all import Packet, BitEnumField, BitField, ConditionalField, ShortField, TCP,
+from scapy.all import Packet, BitEnumField, BitField, ConditionalField, ShortField, TCP
 
 import struct
 
